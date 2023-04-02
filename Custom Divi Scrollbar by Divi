@@ -1,0 +1,22 @@
+/* Custom Divi Scrollbar by Divi */
+/* width of entire scrollbar */
+::-webkit-scrollbar {
+	width: 25px;
+}
+
+/* The Scrollbar Track */
+::-webkit-scrollbar-track {
+	background: #231f20;
+}
+ 
+/* The Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(180deg,#f16436 0%,#f16436 100%)!important; 
+/* don't want a gradient? just remove the above line and keep the line below */
+	background: #231f20;
+	border-radius: 50px;
+}
+
+/* The Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
